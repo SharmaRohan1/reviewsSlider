@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f0f5fc;
+}
+
+/* //heading section begins */
+
+.heading-container{
+    height: 30vh;
+    width: 50%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+}
+
+.heading{
+    position: absolute;
+    bottom: 40px;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+h1{
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+
+.underline{
+    height: 3px;
+    background: #5a94f2;
+    width: 100px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+/* //heading section ends */
+
+/* reviews section begins */
+
+.reviews-section{
+    padding-top: 1.5rem;
+    height: 100%;
+}
+
+.reviews-container{
+    width: 70%;
+    max-width: 550px;
+    height: 100%;
+    max-height: 65vh;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+
+    background: #fff;
+
+    padding: 1.5rem 1rem;
+
+    border-radius: 5px;
+
+    box-shadow: 2px 2px 10px grey;
+}
+
+.reviews-card{
+    min-height: 42vh;
+}
+
+.person-image{
+    margin-bottom: 5px;
+}
+
+.person-image img{
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    border: 0.5px solid #5a94f2;
+}
+
+h4{
+    letter-spacing: 2px;
+}
+
+.person-title{
+    color: #5a94f2;
+    margin-bottom: 5px;
+}
+
+.reviews{
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 0.9rem;
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* reviews section ends */
+
+/* nav-btns section begins */
+
+.btn{
+    color: #5a94f2;
+    padding: 5px 10px;
+    display: inline-block;
+    /* margin-bottom: 2.5px; */
+}
+
+.btn:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.random{
+    background: #f0f5fc;
+    border: 1px solid #5a94f2;
+    color: #5a94f2;
+
+    border-radius: 5px;
+}
+
+.random:hover{
+    border: 1px solid blue;
+}
+
+/* nav-btns section ends */
